@@ -1,0 +1,120 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1, h2 {
+  font-size: 1.6em;
+}
+
+nav {
+  background-color: rgb(77, 77, 77);
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+}
+/* Här tog jag upp Navbar från Navbar UL - här får du leka lite mer */
+nav a{
+color: white;
+}
+
+#navbar ul {
+  height: 50px;
+  width: 50px;
+  font-size: 40px;
+  display: block;
+  color: white;
+  
+}
+#about,
+#projects,
+#contact {
+  padding: 20px;
+  display: inline-block;
+  align-content: center;
+}
+/* kolla lite mer på dessa, kanske ha float istället, float right osv, center */
+img{
+  max-width: 100%;
+}
+
+/* Kanske lek lite med signature här också, float etc - inline block */
+
+#davidpic {
+  height: 600px;
+  width: 400 px;
+  display: inline-block;
+}
+
+.hero {
+  background-color: rgb(77, 77, 77);
+  height: 100%;
+  width: 100%;
+}
+
+#infotext {
+  color: whitesmoke;
+  width: 400px;
+  float: right;
+  margin-right: 5px;
+  justify-content: space-between;
+}
+
+/* kolla i gamla koden hur det såg ut och jämför med denna, infotext,vi tog även bort
+en onödig div */
+
+#abouttext {
+  font-size: 20px;
+margin-top: 20px;
+margin-right: 5px;
+}
+
+.projects {
+  background-color: rgb(134, 149, 163);
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+}
+
+.projectrow{
+/* display: block; */
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+}
+.columnone{
+  padding: 0 2rem;
+}
+
+.muistreamh3 {
+  margin-top: 1px;
+}
+
+#muistream {
+  width: 600px;
+  height: 400px;
+}
+
+#dkuxpic {
+  width: 600px;
+  height: 400px;
+  
+}
+
+.contact {
+  background-color: rgb(77, 77, 77);
+  height: 600px;
+  width: 400 px;
+}
+
+#contactinfo {
+  padding: 40px;
+}
