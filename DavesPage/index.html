@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Dave's Page</title>
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="stylesheet" href="CSS/normalize.css" />
+  </head>
+  <body>
+    <section>
+        <div id="nav">
+    
+        <nav>
+          <ul class="li">
+            <li id="about"><a href="#about">About</a></li>
+            <li id="projects"><a href="#projects">Projects</a></li>
+            <li id="contact"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+
+    <section class="hero">
+      <div class="heroclass">
+        <img id="davidpic" src="img/davidpic.png" alt="">
+            <div id="infotext">
+                <h1 id="herotext">David Komar - Frontend Developer &amp; UX/UI designer </h1><br>
+                <h3 id="abouth3"> Welcome to my world of development, design and creativity!</h3>
+                <p id="abouttext"> My name is David Komar and I'm a UX/UI designer and an upcoming Frontend Developer.
+                    <br><br>I have over 5 years experience in information systems, architecture and IT in general.
+                My latest positions have been in the UX research field with some design missions. 
+                I master the Affinity series and enterprise architecture design systems for process modelling.
+                <br><br> My coming months I will be focusing on the main frontend technologies as well as React and React Native.
+                My dream is also to be a mobile app developer with React Native and Flutter. <hr> <br> Check out my work below and let's talk soon!
+                </p>
+            </div>    
+      </div>
+    </section>
+
+    <!-- här vill du göra #projects så att den kommer till projects -->
+    <section class="projects">
+      <div class="projectsclass">
+        <h1>My projects</h1>
+        <h3>These are some of my projects I've been working on:</h3>
+        </div>
+              <div class="projectrow">
+                <div class="columnone">
+            <img id="muistream" src="img/Muisstream New UI 2020dec.png" alt="">
+              
+                <h3 class="muistreamh3">Muistream - A music streaming platform (startup)</h3>
+                  <h4 class="muistreamtext">Muistream is a Stockholm based startup by David Komar and Granville Goes. <br>The platform
+                  is focused on streaming live content as well as <br> providing a unique music experience in the modern society.</h4>   
+              </div>   
+              <div class="columnone">
+                  <!-- <img id="dkuxpic" src="img/profile.png" alt=""> -->
+                  <a href="http://dk-ux.com"><img id="dkuxpic" src="img/profile.png" alt=""></a>
+                  <h3 class="dkux">DK-UX</h3> 
+                  <h4 class="dk">DK-UX is David Komar's UX portfolio website</h4>
+              </div>
+
+              <div class="columnone">
+                  <a href="http://komarkomposition.com"><img id="dkuxpic" src="img/KK 512x512 png.png" alt=""></a>
+                  <h3 class="dkux">Komar Komposition</h3> 
+                  <h4 class="dk">Komar Komposition is David Komar's music portfolio - check it out!</h4>
+              </div>
+
+              <div class="columnone">
+                  <a href="http://soundcloud.com/davidkeys/sets/david-keys-sounds"><img id="dkuxpic" src="img/DavidKeysPalmsSmall.png" alt=""></a>
+                  <h3 class="dkux">David Keys</h3> 
+                  <h4 class="dk">David Keys is the David's alter ego synthwave artist - amazing music comin out soon!</h4>
+              </div>
+
+            </div>
+                
+                
+                
+                    <!--lägg in a href länkar till hemsidorna  -->
+                
+                
+    </section>
+
+    <!-- här vill du ha #contact -->
+    <section class="contact">
+            <div class="contactclass">
+                <h1 id="contactinfo">Contact information</h1>
+            </div>
+          </section>
+          <form>
+              <h1>Let's talk!</h1>
+          
+          
+                  <div class="inputs">
+                      <action action="" method="POST">
+                  <!-- om du har Label - kan du köra id och isf kan man klicka/markera på labeln typ Namn och så markeras 
+                  value=för att man ska skicka samma info till DBen-->
+                          
+                    <input type="text" id="firstname" name="firstname" placeholder="Firstname" required>
+          
+                          <input type="text" id="lastname" name="lastname" placeholder="Lastname" required>
+          
+                          <input type="email" id="email" name="email" id="Email" placeholder="Email" required>
+                          
+                    
+          
+                  </div >
+                          <br>
+                          <label for="crypto">Choose your inquiry:</label>
+                          <select name="crypto" id="crypto">
+                          <option value="checked">pick from the list</option>
+                          <option value="Collab">Collab</option>
+                          <option value="Coffee">Have a coffee</option>
+                          <option value="Surprise">Surprise!</option>
+                         
+                  
+                          <br>
+                  <label for="comment"><br>Send your best text here:</label><br>
+                  <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Please send us our username, password, private keys and we'll take care of the rest">
+              </textarea>
+          
+          
+                  <br><br>
+                  <input type="checkbox" id="terms" name="terms"></input>
+                  <label for="terms">Do you agree on the GDPR terms that we save your personal info?</label> <br>
+          
+          
+                  <input type="submit" id="button" value="Send">
+                  
+              </form>      
+  </body>
+</html>
+
